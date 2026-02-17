@@ -1,13 +1,31 @@
 {
-  "name": "logincheck",
+  "name": "orangehrm-login-automation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automated login testing for OrangeHRM using Cypress with Page Object Model pattern",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome",
+    "test:edge": "cypress run --browser edge",
+    "test:firefox": "cypress run --browser firefox",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome --headed",
+    "cy:run:record": "cypress run --record",
+    "clean": "rm -rf cypress/screenshots cypress/videos"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cypress",
+    "automation",
+    "testing",
+    "e2e",
+    "login",
+    "orangehrm",
+    "page-object-model",
+    "javascript"
+  ],
+  "author": "Automation Tester",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
