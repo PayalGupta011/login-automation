@@ -1,0 +1,12 @@
+{
+  "validCredentials": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidCredentials": {
+    "username": "InvalidUser",
+    "password": "wrongpassword"
+  },
+  "expectedDashboardUrl": "/web/index.php/dashboard/index",
+  "expectedPageTitle": "OrangeHRM"
+}
